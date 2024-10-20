@@ -28,13 +28,6 @@ JavaScript:
 The game logic is handled entirely through JavaScript. Event listeners capture the player's input and manage the game states (win, loss, guessing).
 JavaScript dynamically updates the DOM to show messages, adjust the score, and modify the background and other UI elements.
 
-File Structure
-/root-directory
-│
-├── index.html          # The main HTML file
-├── styles.css          # CSS file for styling the page
-└── script.js           # JavaScript file containing game logic
-
 Key Files:
 index.html: Contains the structure of the webpage, including headings, buttons, and placeholders for dynamic elements like the score, highscore, and messages.
 styles.css: Responsible for the visual design of the game, including background gradients, font choices, and layout styles.
